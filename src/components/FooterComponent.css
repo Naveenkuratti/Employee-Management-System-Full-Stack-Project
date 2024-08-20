@@ -1,0 +1,28 @@
+/* Footer styling */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the text */
+.text-muted {
+    color: #6c757d;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .text-muted {
+        font-size: 12px;
+    }
+}
